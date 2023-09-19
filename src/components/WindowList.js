@@ -1,7 +1,7 @@
 // WindowList.js
 import React, { useState, useEffect } from 'react';
 
-function WindowList({ data, setSelectedWindow }) {
+function WindowList({ data, setSelectedWindow, language}) {
   const [selectedOption, setSelectedOption] = useState('');
 
   // Sort the data based on sortKey
@@ -30,11 +30,11 @@ function WindowList({ data, setSelectedWindow }) {
 
   return (
     <div>
-      <h2>Select an Object's Class:</h2>
+      <h2>Form:</h2>
       <select onChange={handleSelectChange} value={selectedOption}>
         {sortedData.map((window, index) => (
           <option key={index} value={index}>
-            {window.class.labels.default}
+            {window.class.labels[language] ? window.class.labels[language] : window.class.labels.default}
           </option>
         ))}
       </select>

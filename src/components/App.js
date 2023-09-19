@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import WindowList from './WindowList';
 import PropertyForm from './PropertyForm';
-import data from '../data/form.json'; // Replace with the correct path to your JSON file
+import LanguageSelect from './LanguageSelect';
+import data from '../data/form.json';
+import lang from '../data/lang.json';
 
 function App() {
   const [selectedWindow, setSelectedWindow] = useState(null);
+  const [selectedLanguage, setSelectedLanguage] = useState(null);
 
   useEffect(() => {
     // Fetch data here if needed
@@ -12,10 +15,11 @@ function App() {
 
   return (
     <div>
-      <h1>Construction Window App</h1>
-      <WindowList data={data} setSelectedWindow={setSelectedWindow} />
+      <h1>Trace4Value</h1>
+      <WindowList data={data} setSelectedWindow={setSelectedWindow} language={selectedLanguage}/>
+      <LanguageSelect languages={lang} setSelectedLanguage={setSelectedLanguage} />
       {selectedWindow && (
-        <PropertyForm properties={selectedWindow.properties} />
+        <PropertyForm object={selectedWindow} language={selectedLanguage}/>
       )}
     </div>
   );

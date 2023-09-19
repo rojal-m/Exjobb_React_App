@@ -1,67 +1,99 @@
 // PropertyInput.js
 import React from 'react';
 
-function PropertyInput({ property }) {
+function PropertyInput({ property, language , onPropertyChange}) {
+  // Function to get the label in the specified language or fallback to default
+  const getSelectedLang = (labels) => {
+    return labels[language] ? labels[language] : labels.default;
+  };
+
+  const isRequired = (property.min !== 0);
+  const propertyName = property.property.value;
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    onPropertyChange(name, value);
+  };
+
+  const handleSelectChange = (e) => {
+    const { name, options } = e.target;
+    const selectedOptions = Array.from(options)
+      .filter((option) => option.selected)
+      .map((option) => option.value);
+
+    onPropertyChange(name, selectedOptions);
+  };
+
+
   const renderInput = () => {
     if (property.datatype === 'http://www.w3.org/2001/XMLSchema#boolean') {
       // Handle boolean datatype with radio buttons
-      return (
-        <>
-          <label>
-            <input type="radio" name={property.property.labels.default} value="true" />
-            Yes
-          </label>
-          <label>
-            <input type="radio" name={property.property.labels.default} value="false" />
-            No
-          </label>
-        </>
-      );
+      if(isRequired){
+        return (
+          <div>
+            <input type="radio" name={propertyName} value="yes" onChange={handleInputChange} required />
+            <label>Yes</label>
+            <input type="radio" name={propertyName} value="no" onChange={handleInputChange} required />
+            <label>No</label>
+          </div>
+        );
+        } else{
+          return (
+            <div>
+              <input type="radio" name={propertyName} value="yes" onChange={handleInputChange} />
+              <label>Yes</label>
+              <input type="radio" name={propertyName} value="no" onChange={handleInputChange} />
+              <label>No</label>
+              <input type="radio" name={propertyName} value="dontknow" onChange={handleInputChange} />
+              <label>Dont Know</label>
+            </div>
+          );
+        }
     } else if (property.datatype === 'http://www.w3.org/2001/XMLSchema#string') {
       // Handle string datatype with a text field
-      return <input type="text" />;
+      return (
+        <div>
+          <input type="text" name={propertyName} onChange={handleInputChange} required={isRequired} />
+        </div>
+      );
     } else if (property.datatype === 'http://www.w3.org/2001/XMLSchema#gMonthYear') {
-      // Handle gMonthYear datatype with a date picker (simplified)
-      return <input type="date" />;
+
+      return (
+        <div>
+          <input type="month" id="start" name={propertyName} onChange={handleInputChange} required={isRequired} />
+        </div>
+      );
     } else if (property.values) {
       // Handle dropdown based on values
       if (property.max === 1) {
         // Single-select with radio buttons
         return (
-          <>
-            {property.values.map((value, index) => (
-              <label key={index}>
-                <input type="radio" name={property.property.labels.default} value={value.value} />
-                {value.labels.default}
-              </label>
-            ))}
-          </>
+          <select name={propertyName} onChange={handleInputChange} required={isRequired}>
+            <option value="">Choose an option</option>
+              {property.values.map((value, index) => (
+                <option key={index} value={value.value}>
+                  {getSelectedLang(value.labels)}
+                </option>
+              ))}
+          </select>
         );
       } else {
         // Multi-select with checkboxes
         return (
-          <>
-            {property.values.map((value, index) => (
-              <label key={index}>
-                <input type="checkbox" name={property.property.labels.default} value={value.value} />
-                {value.labels.default}
-              </label>
-            ))}
-          </>
+          <select multiple name={propertyName} onChange={handleSelectChange} required={isRequired}>
+              {property.values.map((value, index) => (
+                <option key={index} value={value.value}>
+                  {getSelectedLang(value.labels)}
+                </option>
+              ))}
+          </select>
         );
       }
-    } else if (property.min == 0 || !property.max || !property.datatype || !property.values) {
+    } else if (!isRequired || !property.max || !property.datatype || !property.values) {
       return(
-        <>
-          <label>
-            <input type="checkbox" name={property.property.labels.default} value="true" />
-            Yes
-          </label>
-          <label>
-            <input type="checkbox" name={property.property.labels.default} value="false" />
-            No
-          </label>
-        </>
+        <div>
+          <input type="text" name={propertyName} onChange={handleInputChange} />
+        </div>
       );
     } else {
       // Handle other cases (unspecified datatype or unsupported)
@@ -71,7 +103,8 @@ function PropertyInput({ property }) {
 
   return (
     <div>
-      <label>{property.property.labels.default}</label>
+      <label>{getSelectedLang(property.property.labels)}</label>
+      {isRequired? <label style={{color: "red"}}>*</label> : ""}
       {renderInput()}
     </div>
   );
