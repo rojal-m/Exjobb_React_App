@@ -17,6 +17,16 @@ function WindowList({ data, setSelectedWindow, language}) {
     localStorage.setItem('selectedWindowIndex', selectedIndex); // Store the selected index in local storage
   };
 
+  const indent = (sortKey) => {
+    // Split the sortKey string using '->' as the delimiter
+    const arrowCount = sortKey.split('->').length - 1;
+
+    // Create a string with the desired number of val characters
+    const val = String.fromCharCode(8194).repeat(arrowCount);
+
+    return val;
+  }
+
   useEffect(() => {
     const storedSelectedIndex = localStorage.getItem('selectedWindowIndex');
     if (storedSelectedIndex !== null) {
@@ -29,15 +39,22 @@ function WindowList({ data, setSelectedWindow, language}) {
   }, [data, setSelectedWindow]);
 
   return (
-    <div>
-      <h2>Form:</h2>
-      <select onChange={handleSelectChange} value={selectedOption}>
-        {sortedData.map((window, index) => (
-          <option key={index} value={index}>
-            {window.class.labels[language] ? window.class.labels[language] : window.class.labels.default}
-          </option>
-        ))}
-      </select>
+    <div className="col-8">
+      <div className="row g-3 align-items-center">
+        <div className="col-auto">
+          <label htmlFor="obj-select" className="col-form-label">Form:</label>
+        </div>
+        <div className="col-7">
+          <select className="form-select" id="obj-select" onChange={handleSelectChange} value={selectedOption}>
+            {sortedData.map((window, index) => (
+              <option key={index} value={index} title={window.class.comments[language] ? window.class.comments[language] : window.class.comments.default}>
+                {indent(window.class.sortKey)}
+                {window.class.labels[language] ? window.class.labels[language] : window.class.labels.default}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
     </div>
   );
 }

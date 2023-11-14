@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../css/App.css'
 import WindowList from './WindowList';
 import PropertyForm from './PropertyForm';
 import LanguageSelect from './LanguageSelect';
@@ -14,10 +16,12 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="container-md">
       <h1>Trace4Value</h1>
-      <WindowList data={data} setSelectedWindow={setSelectedWindow} language={selectedLanguage}/>
-      <LanguageSelect languages={lang} setSelectedLanguage={setSelectedLanguage} />
+      <div className="row row-reverse">
+        <LanguageSelect languages={lang} setSelectedLanguage={setSelectedLanguage} />
+        <WindowList data={data} setSelectedWindow={setSelectedWindow} language={selectedLanguage}/>
+      </div>
       {selectedWindow && (
         <PropertyForm object={selectedWindow} language={selectedLanguage}/>
       )}
@@ -26,29 +30,3 @@ function App() {
 }
 
 export default App;
-
-/*import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;*/

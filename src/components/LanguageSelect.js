@@ -26,15 +26,21 @@ function LanguageSelect({languages, setSelectedLanguage}) {
     }
 
     return (
-        <div>
-            <label>Language:</label>
-            <select onChange={handleLangChange} value={selectedLang} >
-                {Object.keys(languages).map((language) => (
-                    <option key={language} value={language}> 
-                        {language} 
-                    </option>
-                ))} 
-            </select>
+        <div className="col-4">
+            <div className="row g-3 align-items-center">
+                <div className="col-auto">
+                    <label htmlFor="lang-select" className="col-form-label">Language:</label>
+                </div>
+                <div className="col-auto">
+                    <select className="form-select" id="lang-select" onChange={handleLangChange} value={selectedLang} >
+                        {Object.keys(languages).map((language) => (
+                            <option key={language} value={language}> 
+                                {language} 
+                            </option>
+                        ))} 
+                    </select>
+                </div>
+            </div>
         </div>
     );
 }
