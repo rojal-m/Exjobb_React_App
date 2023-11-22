@@ -1,3 +1,68 @@
 .row-reverse{
   flex-direction: row-reverse;
 }
+
+.center {
+  background-color: #fff0cc;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.link {
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+
+.box{
+  background-color: #fff0cc;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.view-form-container {
+  background-color: #fff0cc;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  z-index: 1;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.view-property-box {
+  background-color: #0000001a;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.cont{
+  background-color: #fff0cc;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.bold {
+  font-weight: bold;
+}
