@@ -4,7 +4,7 @@
             "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/RecyclableWindowWAsbestos"},
             "sortKey": "http://w3id.org/CEON/ontology/construction/window/Window -> http://w3id.org/CEON/ontology/construction/window/RecyclableWindow -> http://w3id.org/CEON/ontology/construction/window/RecyclableWindowWHazardousSubstance -> http://w3id.org/CEON/ontology/construction/window/RecyclableWindowWAsbestos",
             "value": "http://w3id.org/CEON/ontology/construction/window/RecyclableWindowWAsbestos",
-            "labels": {"default": "RecyclableWindowWAsbestos"}
+            "labels": {"default": "RecyclableWindowWAsbestos","en": "Recyclable Window With Asbestos", "sv":"Återvinningsbart fönster med asbest", "fr":"Fenêtre recyclable avec amiante", "de":"Recycelbares Fenster mit Asbest"}
         },
         "properties": [
             {
@@ -32,7 +32,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                            
                             "default": "level37"
                         }
                     },
@@ -40,7 +40,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                            
                             "default": "level35"
                         }
                     },
@@ -48,7 +48,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
+                            
                             "default": "level40"
                         }
                     },
@@ -56,7 +56,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
+                            
                             "default": "level30"
                         }
                     }
@@ -103,7 +103,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
+                            
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -112,7 +112,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
+                            
                             "default": "PVC"
                         }
                     }
@@ -412,7 +412,7 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
+                            
                             "default": "good"
                         }
                     },
@@ -614,7 +614,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
+                            
                             "default": "Above63Perc"
                         }
                     },
@@ -622,7 +622,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
+                           
                             "default": "Below63Perc"
                         }
                     }
@@ -874,7 +874,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
+                            
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -883,7 +883,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
+                            
                             "default": "PVC"
                         }
                     }
@@ -1000,7 +1000,7 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
+                           
                             "default": "good"
                         }
                     },
@@ -1224,7 +1224,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
+                           
                             "default": "Above63Perc"
                         }
                     },
@@ -1232,7 +1232,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
+                            
                             "default": "Below63Perc"
                         }
                     }
@@ -1421,7 +1421,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                          
                             "default": "level37"
                         }
                     },
@@ -1429,7 +1429,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                           
                             "default": "level35"
                         }
                     },
@@ -1437,7 +1437,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
+                       
                             "default": "level40"
                         }
                     },
@@ -1445,7 +1445,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
+                           
                             "default": "level30"
                         }
                     }
@@ -1717,7 +1717,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
+                        
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -1726,7 +1726,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
+                           
                             "default": "PVC"
                         }
                     }
@@ -2016,7 +2016,7 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
+                            
                             "default": "good"
                         }
                     },
@@ -2070,7 +2070,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                           
                             "default": "level37"
                         }
                     },
@@ -2078,7 +2078,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                           
                             "default": "level35"
                         }
                     },
@@ -2086,7 +2086,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
+                         
                             "default": "level40"
                         }
                     },
@@ -2094,7 +2094,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
+                           
                             "default": "level30"
                         }
                     }
@@ -2198,7 +2198,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
+                          
                             "default": "Above63Perc"
                         }
                     },
@@ -2206,7 +2206,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
+                            
                             "default": "Below63Perc"
                         }
                     }
@@ -2312,7 +2312,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
+                          
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -2321,7 +2321,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
+                           
                             "default": "PVC"
                         }
                     }
@@ -2669,7 +2669,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                         
                             "default": "level37"
                         }
                     },
@@ -2677,7 +2677,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                           
                             "default": "level35"
                         }
                     },
@@ -2685,7 +2685,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
+                       
                             "default": "level40"
                         }
                     },
@@ -2693,7 +2693,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
+                           
                             "default": "level30"
                         }
                     }
@@ -3041,7 +3041,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
+                         
                             "default": "Above63Perc"
                         }
                     },
@@ -3049,7 +3049,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
+                         
                             "default": "Below63Perc"
                         }
                     }
@@ -3283,7 +3283,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                           
                             "default": "level37"
                         }
                     },
@@ -3291,7 +3291,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                          
                             "default": "level35"
                         }
                     },
@@ -3299,7 +3299,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
+                        
                             "default": "level40"
                         }
                     },
@@ -3307,7 +3307,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
+                           
                             "default": "level30"
                         }
                     }
@@ -3371,7 +3371,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
+                         
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -3380,7 +3380,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
+                           
                             "default": "PVC"
                         }
                     }
@@ -3495,7 +3495,7 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
+                          
                             "default": "good"
                         }
                     },
@@ -3961,7 +3961,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
+                          
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -3970,7 +3970,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
+                           
                             "default": "PVC"
                         }
                     }
@@ -4132,7 +4132,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                           
                             "default": "level37"
                         }
                     },
@@ -4140,7 +4140,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                           
                             "default": "level35"
                         }
                     },
@@ -4148,7 +4148,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
+                           
                             "default": "level40"
                         }
                     },
@@ -4156,7 +4156,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
+                          
                             "default": "level30"
                         }
                     }
@@ -4188,7 +4188,7 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
+                          
                             "default": "good"
                         }
                     },
@@ -4308,7 +4308,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
+                           
                             "default": "Above63Perc"
                         }
                     },
@@ -4316,7 +4316,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
+                         
                             "default": "Below63Perc"
                         }
                     }
@@ -4683,7 +4683,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
+                          
                             "default": "Above63Perc"
                         }
                     },
@@ -4691,7 +4691,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
+                       
                             "default": "Below63Perc"
                         }
                     }
@@ -4732,7 +4732,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                       
                             "default": "level37"
                         }
                     },
@@ -4740,7 +4740,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                          
                             "default": "level35"
                         }
                     },
@@ -4748,7 +4748,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
+                          
                             "default": "level40"
                         }
                     },
@@ -4756,7 +4756,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
+                          
                             "default": "level30"
                         }
                     }
@@ -4839,7 +4839,7 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
+                           
                             "default": "good"
                         }
                     },
@@ -5016,7 +5016,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
+                       
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -5025,7 +5025,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
+                            
                             "default": "PVC"
                         }
                     }
@@ -5249,7 +5249,7 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
+                         
                             "default": "good"
                         }
                     },
@@ -5303,7 +5303,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
+                         
                             "default": "level37"
                         }
                     },
@@ -5311,7 +5311,7 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
+                           
                             "default": "level35"
                         }
                     },
@@ -5319,7 +5319,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -5327,7 +5326,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -5499,7 +5497,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -5508,7 +5505,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -5671,7 +5667,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -5679,7 +5674,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -6115,7 +6109,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -6123,7 +6116,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -6131,7 +6123,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -6139,7 +6130,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -6182,7 +6172,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -6190,7 +6179,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -6422,7 +6410,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -6431,7 +6418,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -6518,7 +6504,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -6703,7 +6688,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -6789,7 +6773,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -6797,7 +6780,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -6805,7 +6787,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -6813,7 +6794,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -6839,7 +6819,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -6847,7 +6826,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -7065,7 +7043,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -7074,7 +7051,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -7403,7 +7379,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -7411,7 +7386,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -7647,7 +7621,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -7978,7 +7951,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -7986,7 +7958,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -7994,7 +7965,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -8002,7 +7972,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -8066,7 +8035,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -8075,7 +8043,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -8255,7 +8222,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -8469,7 +8435,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -8477,7 +8442,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -8485,7 +8449,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -8493,7 +8456,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -8555,7 +8517,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -8564,7 +8525,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -8733,7 +8693,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -8741,7 +8700,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -8860,7 +8818,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -8868,7 +8825,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -8876,7 +8832,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -8884,7 +8839,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -9116,7 +9070,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -9124,7 +9077,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -9379,7 +9331,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -9501,7 +9452,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -9510,7 +9460,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -9617,7 +9566,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -9625,7 +9573,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -9938,7 +9885,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -10009,7 +9955,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -10017,7 +9962,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -10025,7 +9969,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -10033,7 +9976,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -10189,7 +10131,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -10198,7 +10139,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -10351,7 +10291,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -10359,7 +10298,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -10406,7 +10344,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -10415,7 +10352,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -10681,7 +10617,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -10689,7 +10624,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -10697,7 +10631,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -10705,7 +10638,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
@@ -10805,7 +10737,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -11260,7 +11191,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Above63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Above63Perc",
                         "labels": {
-                            "": ">63%",
                             "default": "Above63Perc"
                         }
                     },
@@ -11268,7 +11198,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/Below63Perc"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/Below63Perc",
                         "labels": {
-                            "": "<63%",
                             "default": "Below63Perc"
                         }
                     }
@@ -11392,7 +11321,6 @@
                         },
                         "value": "http://w3id.org/CEON/ontology/construction/window/good",
                         "labels": {
-                            "": "good",
                             "default": "good"
                         }
                     },
@@ -11592,7 +11520,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/ALU"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/ALU",
                         "labels": {
-                            "": "ALU",
                             "default": "ALU",
                             "en": "Aluminium"
                         }
@@ -11601,7 +11528,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/PVC"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/PVC",
                         "labels": {
-                            "": "PVC",
                             "default": "PVC"
                         }
                     }
@@ -11627,7 +11553,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level37"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level37",
                         "labels": {
-                            "": "37",
                             "default": "level37"
                         }
                     },
@@ -11635,7 +11560,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level35"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level35",
                         "labels": {
-                            "": "35",
                             "default": "level35"
                         }
                     },
@@ -11643,7 +11567,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level40"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level40",
                         "labels": {
-                            "": "40",
                             "default": "level40"
                         }
                     },
@@ -11651,7 +11574,6 @@
                         "comments": {"default": "http://w3id.org/CEON/ontology/construction/window/level30"},
                         "value": "http://w3id.org/CEON/ontology/construction/window/level30",
                         "labels": {
-                            "": "30",
                             "default": "level30"
                         }
                     }
